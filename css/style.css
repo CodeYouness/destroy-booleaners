@@ -25,3 +25,8 @@
 .footer_img-container > div {
     position: relative;
 }
+
+.footer_img-container > div > p {
+    position: absolute;
+    top: 10px;
+}
