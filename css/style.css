@@ -21,3 +21,7 @@
 .footer_img-container {
     flex-direction: column;
 }
+
+.footer_img-container > div {
+    position: relative;
+}
