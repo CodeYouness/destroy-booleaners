@@ -1,5 +1,7 @@
 .header_container {
     background-image: url(../img/pattern.png);
+    height: 200px;
+    width: 1200px;
 }
 
 .flex {
