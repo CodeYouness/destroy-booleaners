@@ -1,24 +1,56 @@
-
-body{
+body {
     background: purple;
     color: magenta;
 }
 
-footer>div{
+footer>div {
     width: 150px;
     height: 150px;
     background-size: cover;
 }
 
-footer>div.graph{
+footer>div.graph {
     background-image: url(../img/graph.jpg);
 }
 
-footer>div.monitor{
+footer>div.monitor {
     background-image: url(../img/monitor.jpg);
 }
 
-footer>p{
+footer>p {
     color: grey;
+}
+
+.header_container {
+    background-image: url(../img/pattern.png);
+    height: 200px;
+    width: 1200px;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_img-container img {
+    width: calc(100 / 2 - 1rem);
+}
+
+.footer_img-container {
+    flex-direction: column;
+}
+
+.footer_img-container>div {
+    position: relative;
+}
+
+.footer_img-container>div>p {
+    position: absolute;
+    top: 10px;
 
 }
