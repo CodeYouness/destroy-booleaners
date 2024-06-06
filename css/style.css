@@ -11,3 +11,7 @@ footer>div.graph{
 footer>div.monitor{
     background-image: url(../img/monitor.jpg);
 }
+
+footer>p{
+    color: grey;
+}
