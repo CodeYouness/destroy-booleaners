@@ -1,4 +1,24 @@
+
 body{
     background: purple;
     color: magenta;
+}
+
+footer>div{
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+}
+
+footer>div.graph{
+    background-image: url(../img/graph.jpg);
+}
+
+footer>div.monitor{
+    background-image: url(../img/monitor.jpg);
+}
+
+footer>p{
+    color: grey;
+
 }
