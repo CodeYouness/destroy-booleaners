@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background: purple;
     color: magenta;
@@ -52,5 +58,4 @@ footer>p {
 .footer_img-container>div>p {
     position: absolute;
     top: 10px;
-
 }
